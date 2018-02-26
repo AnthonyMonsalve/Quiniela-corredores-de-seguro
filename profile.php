@@ -59,10 +59,17 @@
                                 <center class="m-t-30"> <img src="assets/images/users/1.jpg" class="img-circle" width="150" />
                                     <h4 class="card-title m-t-10">Anthony Monsalve</h4>
                                     <div class="row text-center justify-content-md-center">
-                                        <div class="col-8">
-                                            <i title="Ranking" data-toggle="tooltip" class="mdi mdi-trophy-variant-outline"></i>
-                                            <span>Posición del <a href="ranking.php">Ranking</a>:</span>
-                                            <font class="font-18">1</font>
+                                        <div class="col-8" style="display: flex; flex-direction: column; ">
+                                            <div>
+                                                <i title="Ranking" data-toggle="tooltip" class="mdi mdi-trophy-variant-outline"></i>
+                                                <span>Posición del <a href="ranking.php">Ranking</a>:</span>
+                                                <font class="font-18">1</font>
+                                            </div>
+                                            <div class="m-t-20">
+                                                <a href="index.php" class="link" data-toggle="tooltip" title="salir">
+                                                    <i class="mdi mdi-power"><span class="font-14" ">Cerrar Sesión</span></i>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </center>
@@ -78,13 +85,13 @@
                                     <div class="form-group">
                                         <label class="col-md-12">Nombre</label>
                                         <div class="col-md-12">
-                                            <input type="text" placeholder="Johnathan Doe" class="form-control form-control-line">
+                                            <input type="text" placeholder="Anthony Monsalve" class="form-control form-control-line">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label for="example-email" class="col-md-12">Email</label>
                                         <div class="col-md-12">
-                                            <input type="email" placeholder="johnathan@admin.com" class="form-control form-control-line" name="example-email" id="example-email">
+                                            <input type="email" placeholder="Anthony@admin.com" class="form-control form-control-line" name="example-email" id="example-email">
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -96,7 +103,7 @@
                                     <div class="form-group">
                                         <label class="col-md-12">Phone No</label>
                                         <div class="col-md-12">
-                                            <input type="text" placeholder="123 456 7890" class="form-control form-control-line">
+                                            <input type="text" placeholder="+58 424-3039869" class="form-control form-control-line">
                                         </div>
                                     </div>
                                     <div class="form-group">

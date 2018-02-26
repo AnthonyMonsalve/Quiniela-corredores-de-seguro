@@ -42,10 +42,6 @@
                 <div class="row page-titles">
                     <div class="col-md-5 col-8 align-self-center">
                         <h3 class="text-themecolor">¡Bienvenido Anthony!</h3>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0)">Inicio</a></li>
-                            <li class="breadcrumb-item active">Resumen</li>
-                        </ol>
                     </div>
                     <div class="col-md-7 col-4 align-self-center">
                         <a href="#" class="btn waves-effect waves-light btn-danger pull-right hidden-sm-down"> Empezar a Jugar</a>
@@ -115,8 +111,8 @@
                     <div class="col-lg-8 col-md-6">
                         <div class="card">
                             <div class="card-block bg-info">
-                                <h4 class="text-white card-title">Sistema de puntos</h4>
-                                <h6 class="card-subtitle text-white m-b-0 op-5">¿Cuáles son las reglas y cómo obtengo puntos?</h6>
+                                <img class="m-b-10" src="assets/images/sistema-puntos.fw.png" alt="Sistema de Puntos">
+                                <h4 class="card-subtitle text-white m-b-0 op-5">¿Cuáles son las reglas y cómo obtengo puntos?</h4>
                             </div>
                             <div class="card-block">
                                 <div class="message-box contact-box">
@@ -180,8 +176,8 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="card">
                             <div class="card-block bg-info">
-                                <h4 class="text-white card-title">Mejores Puntajes</h4>
-                                <h6 class="card-subtitle text-white m-b-0 op-5">Ranking de usuarios participantes</h6>
+                                <img class="m-b-10" src="assets/images/mejores-puntajes.fw.png" alt="Mejores Puntajes">
+                                <h4 class="card-subtitle text-white m-b-0 op-5">Ranking de usuarios participantes</h4>
                             </div>
                             <div class="card-block">
                                 <div class="message-box contact-box">
@@ -244,165 +240,1010 @@
                         <!-- Column -->
                        
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-6 m-b-100">
                         <div class="card">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs profile-tab" role="tablist">
-                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Activity</a> </li>
-                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a> </li>
-                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#settings" role="tab">Settings</a> </li>
-                            </ul>
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="home" role="tabpanel">
-                                    <div class="card-block">
-                                        <div class="profiletimeline">
-                                            <div class="sl-item">
-                                                <div class="sl-right">
-                                                    <div><a href="#" class="link">John Doe</a> <span class="sl-date">5 minutes ago</span>
-                                                        <p>assign a new task <a href="#"> Design weblayout</a></p>
-                                                        <div class="row">
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img1.jpg" alt="user" class="img-responsive radius"></div>
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img2.jpg" alt="user" class="img-responsive radius"></div>
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img3.jpg" alt="user" class="img-responsive radius"></div>
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img4.jpg" alt="user" class="img-responsive radius"></div>
+                            <div class="card-block bg-info">
+                                <img src="assets/images/proximos-encuentros.fw.png" alt="">
+                            </div>
+                            <div class="card-block">
+                                <div class="message-box contact-box">
+                                    
+                                    <!-- <div class="text-center"><img src="assets/images/pelota.fw.png" class="cup-mejores-puntajes segundo" width="45" alt=""></div>
+                                    <div class="text-center"><img src="assets/images/pelota.fw.png" class="cup-mejores-puntajes tercero" width="45" alt=""></div> -->
+                                                    <div class="row">
+                                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                                            <h2 class="header-month tit-level-2 m-b-10"><strong> Junio 2018</strong></h2>
+                                                            <table class="calendario-dias">
+                                                                <caption>Calendario del Mundial de Rusia 2018 de fútbol</caption>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="day">
+                                                                            <div class="date">14<span class="weekday-mobile">Jueves</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-a">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo A </p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Rusia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/rusia.svg" alt="Rusia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Rusia">Rus</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Arabia Saudí">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/arabia-saudita.svg" alt="Arabia Saudí">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Arabia Saudita">SAU</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">15<span class="weekday-mobile">Viernes</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-a">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo A</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Egipto">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/egipto.svg" alt="Egipto">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Egipto">EGI</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Uruguay">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/uruguay.svg" alt="Uruguay">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Uruguay">URU</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-b">
+                                                                                <time class="hora">17:00<abbr class="time-zone" title="Central European Time">CET</abbr></time>
+                                                                                <p class="grupo">Grupo B</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Marruecos">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/marruecos.svg" alt="Marruecos">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Marruecos">MAR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Irán">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/iran.svg" alt="Irán">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Irán">IRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-b">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo B</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Portugal">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/portugal.svg" alt="Portugal">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Portugal">POR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="España">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/espana.svg" alt="España">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="España">ESP</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <!-- <td class="day">
+                                                                            <div class="date">16<span class="weekday-mobile">Sábado</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-c">
+                                                                                <time class="hora">12:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo C</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Francia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/francia.svg" alt="Francia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Francia">FRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Australia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/australia.svg" alt="Australia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Australia">AUS</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-d">
+                                                                                <time class="hora">15:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo D</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href=" #" title="Argentina">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/argentina.svg" alt="Argentina">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Argentina">ARG</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Islandia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/islandia.svg" alt="Islandia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Islandia">ISL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-c">
+                                                                                <time class="hora">18:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo C</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Perú">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/peru.svg" alt="Perú">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Perú">PER</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Dinamarca">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/dinamarca.svg" alt="Dinamarca">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Dinamarca">DIN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-d">
+                                                                                <time class="hora">21:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo D</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Croacia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/croacia.svg" alt="Croacia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Croacia">CRO</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Nigeria">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/nigeria.svg" alt="Nigeria">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Nigeria">NIG</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">17<span class="weekday-mobile">Domingo</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-e">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo E</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Costa Rica">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/costa-rica.svg" alt="Costa Rica">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Costa Rica">COS</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Serbia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/serbia.svg" alt="Serbia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Serbia">SER</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-f">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo F</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Alemania">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/alemania.svg" alt="Alemania">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Alemania">ALE</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="México">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/mexico.svg" alt="México">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="México">MEX</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-e">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo E</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Brasil">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/brasil.svg" alt="Brasil">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Brasil">BRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Suiza">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/suiza.svg" alt="Suiza">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Suiza">SUI</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="day">
+                                                                            <div class="date">18<span class="weekday-mobile">Lunes</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-f">
+                                                                                <time class="hora">15:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo F</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Suecia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/suecia.svg" alt="Suecia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Suecia">SUE</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Corea del Sur">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/corea-del-sur.svg" alt="Corea del Sur">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Corea del Sur">COR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-g">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo G</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Bélgica">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/belgica.svg" alt="Bélgica">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Bélgica">BEl</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Panamá">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/panama.svg" alt="Panamá">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Panamá">PAN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-g">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo G</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Túnez">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/tunez.svg" alt="Túnez">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Túnez">TUN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Inglaterra">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/inglaterra.svg" alt="Inglaterra">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Inglaterra">ING</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">19<span class="weekday-mobile">Martes</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-h">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo H</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Polonia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/republica-de-polonia.svg" alt="Polonia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Polonia">POL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Senegal">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/senegal.svg" alt="Senegal">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Senegal">SEN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-h">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo H</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href=" #" title="Colombia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/colombia.svg" alt="Colombia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Colombia">COL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Japón">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/japon.svg" alt="Japón">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Japón">JAP</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-a">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo A</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Rusia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/rusia.svg" alt="Rusia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Rusia">Rus</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Egipto">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/egipto.svg" alt="Egipto">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Egipto">EGI</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">20<span class="weekday-mobile">Miércoles</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-b">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo B</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Portugal">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/portugal.svg" alt="Portugal">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Portugal">POR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Marruecos">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/marruecos.svg" alt="Marruecos">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Marruecos">MAR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-a">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo A</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Uruguay">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/uruguay.svg" alt="Uruguay">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Uruguay">URU</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Arabia Saudí">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/arabia-saudita.svg" alt="Arabia Saudí">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Arabia Saudita">SAU</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-b">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo B</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Irán">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/iran.svg" alt="Irán">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Irán">IRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="España">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/espana.svg" alt="España">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="España">ESP</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">21<span class="weekday-mobile">Jueves</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-c">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo C</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Francia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/francia.svg" alt="Francia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Francia">FRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Perú">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/peru.svg" alt="Perú">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Perú">PER</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-c">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo C</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Dinamarca">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/dinamarca.svg" alt="Dinamarca">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Dinamarca">DIN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Australia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/australia.svg" alt="Australia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Australia">AUS</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-d">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo D</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href=" #" title="Argentina">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/argentina.svg" alt="Argentina">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Argentina">ARG</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Croacia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/croacia.svg" alt="Croacia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Croacia">CRO</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">22<span class="weekday-mobile">Viernes</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-e">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo E</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Brasil">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/brasil.svg" alt="Brasil">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Brasil">BRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Costa Rica">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/costa-rica.svg" alt="Costa Rica">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Costa Rica">COS</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-d">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo D</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Nigeria">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/nigeria.svg" alt="Nigeria">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Nigeria">NIG</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Islandia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/islandia.svg" alt="Islandia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Islandia">ISL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-e">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo E</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Serbia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/serbia.svg" alt="Serbia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Serbia">SER</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Suiza">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/suiza.svg" alt="Suiza">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Suiza">SUI</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">23<span class="weekday-mobile">Sábado</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-g">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo G</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Bélgica">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/belgica.svg" alt="Bélgica">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Bélgica">BEl</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Túnez">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/tunez.svg" alt="Túnez">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Túnez">TUN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-f">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo F</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Alemania">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/alemania.svg" alt="Alemania">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Alemania">ALE</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Suecia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/suecia.svg" alt="Suecia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Suecia">SUE</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-f">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo F</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Corea del Sur">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/corea-del-sur.svg" alt="Corea del Sur">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Corea del Sur">COR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="México">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/mexico.svg" alt="México">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="México">MEX</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">24<span class="weekday-mobile">Domingo</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-g">
+                                                                                <time class="hora">14:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo G</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Inglaterra">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/inglaterra.svg" alt="Inglaterra">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Inglaterra">ING</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Panamá">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/panama.svg" alt="Panamá">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Panamá">PAN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-h">
+                                                                                <time class="hora">17:00 <abbr class="time-zone" title="Central European Time">CET </abbr></time>
+                                                                                <p class="grupo">Grupo H</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Japón">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/japon.svg" alt="Japón">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Japón">JAP</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Senegal">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/senegal.svg" alt="Senegal">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Senegal">SEN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-h">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo H</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Polonia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/republica-de-polonia.svg" alt="Polonia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Polonia">POL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href=" #" title="Colombia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/colombia.svg" alt="Colombia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Colombia">COL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="day">
+                                                                            <div class="date">25<span class="weekday-mobile">Lunes</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-a">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo A</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Arabia Saudí">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/arabia-saudita.svg" alt="Arabia Saudí">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Arabia Saudita">SAU</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Egipto">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/egipto.svg" alt="Egipto">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Egipto">EGI</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-a">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo A</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Uruguay">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/uruguay.svg" alt="Uruguay">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Uruguay">URU</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Rusia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo A/rusia.svg" alt="Rusia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Rusia">Rus</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-b">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo B</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="España">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/espana.svg" alt="España">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="España">ESP</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Marruecos">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/marruecos.svg" alt="Marruecos">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Marruecos">MAR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-b">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo B</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Irán">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/iran.svg" alt="Irán">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Irán">IRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Portugal">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo B/portugal.svg" alt="Portugal">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Portugal">POR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">26<span class="weekday-mobile">Martes</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-c">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo C</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Dinamarca">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/dinamarca.svg" alt="Dinamarca">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Dinamarca">DIN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Francia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/francia.svg" alt="Francia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Francia">FRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-c">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo C</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Australia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/australia.svg" alt="Australia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Australia">AUS</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Perú">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo C/peru.svg" alt="Perú">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Perú">PER</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-d">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo D</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Islandia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/islandia.svg" alt="Islandia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Islandia">ISL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Croacia">
+                                                                                            <img class="bandera img-max-size" src="//as01.epimg.net/img/comunes/fotos/fichas/paises/svg/cro.svg" alt="Croacia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Croacia">CRO</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-d">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo D</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Nigeria">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/nigeria.svg" alt="Nigeria">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Nigeria">NIG</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href=" #" title="Argentina">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo D/argentina.svg" alt="Argentina">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Argentina">ARG</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">27<span class="weekday-mobile">Miércoles</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-f">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo F</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Corea del Sur">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/corea-del-sur.svg" alt="Corea del Sur">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Corea del Sur">COR</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Alemania">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/alemania.svg" alt="Alemania">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Alemania">ALE</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-f">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo F</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="México">
+                                                                                            <img class="bandera img-max-size" src="//as01.epimg.net/img/comunes/fotos/fichas/paises/svg/mex.svg" alt="México">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="México">MEX</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Suecia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo F/suecia.svg" alt="Suecia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Suecia">SUE</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-e">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo E</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Serbia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/serbia.svg" alt="Serbia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Serbia">SER</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Brasil">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/brasil.svg" alt="Brasil">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Brasil">BRA</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-e">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo E</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Suiza">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/suiza.svg" alt="Suiza">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Suiza">SUI</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Costa Rica">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo E/costa-rica.svg" alt="Costa Rica">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Costa Rica">COS</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day">
+                                                                            <div class="date">28<span class="weekday-mobile">Jueves</span></div>
+                                                                            <p class="fase">Fase de Grupos</p>
+                                                                            <div class="cont-resultados grupo-h">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo H</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Senegal">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/senegal.svg" alt="Senegal">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Senegal">SEN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href=" #" title="Colombia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/colombia.svg" alt="Colombia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Colombia">COL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-h">
+                                                                                <time class="hora">16:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">Grupo H</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Japón">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/japon.svg" alt="Japón">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Japón">JAP</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Polonia">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo H/republica-de-polonia.svg" alt="Polonia">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Polonia">POL</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-g">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo">  Grupo G</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Panamá">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/panama.svg" alt="Panamá">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Panamá">PAN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Túnez">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/tunez.svg" alt="Túnez">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Túnez">TUN</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="sede"></p>
+                                                                            </div>
+                                                                            <div class="cont-resultados grupo-g">
+                                                                                <time class="hora">20:00 <abbr class="time-zone" title="Central European Time">CET </abbr> </time>
+                                                                                <p class="grupo"> Grupo G</p>
+                                                                                <div class="cont-marcador noequipos">
+                                                                                    <div class="col-equipo-local">
+                                                                                        <a class="equipo" href="#" title="Inglaterra">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/inglaterra.svg" alt="Inglaterra">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Inglaterra">ING</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-equipo-visitante">
+                                                                                        <a class="equipo" href="#" title="Bélgica">
+                                                                                            <img class="bandera img-max-size" src="assets/images/PAISES/grupo G/belgica.svg" alt="Bélgica">
+                                                                                            <abbr class="nombre-equipo" data-toggle="tooltip" title="Bélgica">BEl</abbr>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div>
+                                                                                        <p class="sede"></p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="day Descanso">
+                                                                            <div class="date">29<span class="weekday-mobile">Viernes</span></div>
+                                                                            <p class="fase">Final de la primera fase</p>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
                                                         </div>
-                                                        <div class="like-comm"> <a href="javascript:void(0)" class="link m-r-10">2 comment</a> <a href="javascript:void(0)" class="link m-r-10"><i class="fa fa-heart text-danger"></i> 5 Love</a> </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                            <div class="sl-item">
-                                                <div class="sl-right">
-                                                    <div> <a href="#" class="link">John Doe</a> <span class="sl-date">5 minutes ago</span>
-                                                        <div class="m-t-20 row">
-                                                            <div class="col-md-3 col-xs-12"><img src="assets/images/big/img1.jpg" alt="user" class="img-responsive radius"></div>
-                                                            <div class="col-md-9 col-xs-12">
-                                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p> <a href="#" class="btn btn-success"> Design weblayout</a></div>
-                                                        </div>
-                                                        <div class="like-comm m-t-20"> <a href="javascript:void(0)" class="link m-r-10">2 comment</a> <a href="javascript:void(0)" class="link m-r-10"><i class="fa fa-heart text-danger"></i> 5 Love</a> </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                            <div class="sl-item">
-                                                <div class="sl-right">
-                                                    <div><a href="#" class="link">John Doe</a> <span class="sl-date">5 minutes ago</span>
-                                                        <p class="m-t-10"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper </p>
-                                                    </div>
-                                                    <div class="like-comm m-t-20"> <a href="javascript:void(0)" class="link m-r-10">2 comment</a> <a href="javascript:void(0)" class="link m-r-10"><i class="fa fa-heart text-danger"></i> 5 Love</a> </div>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                            <div class="sl-item">
-                                                <div class="sl-right">
-                                                    <div><a href="#" class="link">John Doe</a> <span class="sl-date">5 minutes ago</span>
-                                                        <blockquote class="m-t-10">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                                        </blockquote>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--second tab-->
-                                <div class="tab-pane" id="profile" role="tabpanel">
-                                    <div class="card-block">
-                                        <div class="row">
-                                            <div class="col-md-3 col-xs-6 b-r"> <strong>Full Name</strong>
-                                                <br>
-                                                <p class="text-muted">Johnathan Deo</p>
-                                            </div>
-                                            <div class="col-md-3 col-xs-6 b-r"> <strong>Mobile</strong>
-                                                <br>
-                                                <p class="text-muted">(123) 456 7890</p>
-                                            </div>
-                                            <div class="col-md-3 col-xs-6 b-r"> <strong>Email</strong>
-                                                <br>
-                                                <p class="text-muted">johnathan@admin.com</p>
-                                            </div>
-                                            <div class="col-md-3 col-xs-6"> <strong>Location</strong>
-                                                <br>
-                                                <p class="text-muted">London</p>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <p class="m-t-30">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries </p>
-                                        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                        <h4 class="font-medium m-t-30">Skill Set</h4>
-                                        <hr>
-                                        <h5 class="m-t-30">Wordpress <span class="pull-right">80%</span></h5>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:6px;"> <span class="sr-only">50% Complete</span> </div>
-                                        </div>
-                                        <h5 class="m-t-30">HTML 5 <span class="pull-right">90%</span></h5>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:6px;"> <span class="sr-only">50% Complete</span> </div>
-                                        </div>
-                                        <h5 class="m-t-30">jQuery <span class="pull-right">50%</span></h5>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; height:6px;"> <span class="sr-only">50% Complete</span> </div>
-                                        </div>
-                                        <h5 class="m-t-30">Photoshop <span class="pull-right">70%</span></h5>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%; height:6px;"> <span class="sr-only">50% Complete</span> </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane" id="settings" role="tabpanel">
-                                    <div class="card-block">
-                                        <form class="form-horizontal form-material">
-                                            <div class="form-group">
-                                                <label class="col-md-12">Full Name</label>
-                                                <div class="col-md-12">
-                                                    <input type="text" placeholder="Johnathan Doe" class="form-control form-control-line">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="example-email" class="col-md-12">Email</label>
-                                                <div class="col-md-12">
-                                                    <input type="email" placeholder="johnathan@admin.com" class="form-control form-control-line" name="example-email" id="example-email">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-md-12">Password</label>
-                                                <div class="col-md-12">
-                                                    <input type="password" value="password" class="form-control form-control-line">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-md-12">Phone No</label>
-                                                <div class="col-md-12">
-                                                    <input type="text" placeholder="123 456 7890" class="form-control form-control-line">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-md-12">Message</label>
-                                                <div class="col-md-12">
-                                                    <textarea rows="5" class="form-control form-control-line"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-sm-12">Select Country</label>
-                                                <div class="col-sm-12">
-                                                    <select class="form-control form-control-line">
-                                                        <option>London</option>
-                                                        <option>India</option>
-                                                        <option>Usa</option>
-                                                        <option>Canada</option>
-                                                        <option>Thailand</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <button class="btn btn-success">Update Profile</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
                                 </div>
                             </div>
                         </div>

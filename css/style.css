@@ -337,6 +337,9 @@ html body .m-b-30 {
 
 html body .m-b-40 {
   margin-bottom: 40px; }
+  
+html body .m-b-100 {
+  margin-bottom: 100px; }
 
 /*******************
 vertical alignment
@@ -8049,4 +8052,30 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
 }
 .text-black{
   color: #000;
+}
+.group{
+  border: solid 1px #000;
+  margin-right: 20px;
+}
+.grupo-name-red{
+  background-color: #F6DFDF;
+}
+.grupo-name-blue{
+  background-color: #DFE8F6;
+}
+.bandera-pais{
+  width: 30px;
+  -webkit-box-shadow: 10px 10px 31px -16px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 31px -16px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 31px -16px rgba(0,0,0,0.75);
+  border-radius: 50px;
+}
+.nombre-bandera{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+}
+.nombre-bandera span{
+  min-width: 50px;
 }
